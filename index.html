@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>iron man</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+
+	</div>
+	<div class="banner">
+		<img src="ban.jpg" height="500px;" width="100%;">
+	</div>
+	<div class="img-con">
+		<img id="img1" onmouseover="setnewimg()" onmouseout="setoldimg()" src="6.gif" style="height=300px;" width="400px;">
+
+	</div>
+	
+
+<script>
+	function setnewimg(){
+		document.getElementById("img1").src="5.gif";
+	}
+	function setoldimg(){
+		document.getElementById("img1").src="6.gif";
+	}
+	
+</script>
+</body>
+</html>
+

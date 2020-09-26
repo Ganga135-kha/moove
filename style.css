@@ -1,0 +1,38 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+
+.container{
+	height: 500px;
+	width: 80%;
+	background-color: red;
+	margin-left: 10%;
+	margin-top: 20px;
+}
+.img-con{
+	height: 300px;
+	width: 400px;
+	position: relative;
+	top:-400px;
+	margin-left:60%;
+}
+
+.btn{
+	height: 50px;
+	width: 30%;
+	margin-left: 35%;
+	background-color: blue;
+	position: relative;
+	top:-400px;
+	text-align: center;
+	line-height: 50px;
+}
+
+button{
+	height: 25px;
+	width: 70px;
+	background-color: red;
+	
+}
